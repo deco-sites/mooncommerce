@@ -1,11 +1,13 @@
 import { SectionProps } from "deco/types.ts";
-
+import { HTMLWidget } from "apps/admin/widgets.ts";
+/**
+ * @titleBy matcher
+ */
 export interface HighText {
   /** @description RegExp to enable this banner on the current URL. Use /feminino/* to display this banner on feminino category  */
   matcher: string;
   /** @description Insira o conteúdo de texto que vai ser exibido */
-  text: string;
-  _readMore?: boolean;
+  text: HTMLWidget;
 }
 
 const DEFAULT_PROPS = {
@@ -24,11 +26,16 @@ const DEFAULT_PROPS = {
 function HighText(props: SectionProps<ReturnType<typeof loader>>) {
   const { item } = props;
 
-  return (
-    <div>
-      <p>{item?.text}</p>
-    </div>
-  );
+  if (item) {
+    return (
+      <div
+        dangerouslySetInnerHTML={{ __html: item.text }}
+        class="w-4/5 mx-auto"
+        id="highTextSeo"
+      >
+      </div>
+    );
+  }
 }
 
 export interface Props {

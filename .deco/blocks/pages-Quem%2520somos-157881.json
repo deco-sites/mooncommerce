@@ -1,0 +1,15 @@
+{
+  "name": "Quem somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Sobre quem desenvolveu a página",
+      "description": "Está página contém um pequena descrição sobre a pessoa que está desenvolvendo o site."
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

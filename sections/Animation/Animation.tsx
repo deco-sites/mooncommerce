@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import { Section } from "deco/blocks/section.ts";
 import { useId } from "../../sdk/useId.ts";
 

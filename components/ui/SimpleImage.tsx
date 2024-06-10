@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import { clx } from "../../sdk/clx.ts";

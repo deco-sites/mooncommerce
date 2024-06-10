@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import Icon, { AvailableIcons } from "../../components/ui/Icon.tsx";
 import { clx } from "../../sdk/clx.ts";
 import {
@@ -50,8 +51,8 @@ export default function Card({
   return (
     <div
       class={clx(
-        "flex gap-3",
-        layout?.iconPosition === "Left" ? "flex-row" : "flex-col",
+        "_flex gap-3",
+        layout?.iconPosition === "Left" ? "_flex-row" : "flex-col",
         bgColor && colorClasses[bgColor],
         hasPadding && "p-4 lg:p-8",
         style?.border?.color && borderColorClasses2[style.border.color],

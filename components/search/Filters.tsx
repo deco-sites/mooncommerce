@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import Avatar from "../../components/ui/Avatar.tsx";
 import { formatPrice } from "../../sdk/format.ts";
 import type {

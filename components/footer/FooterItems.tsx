@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import Icon, { AvailableIcons } from "../../components/ui/Icon.tsx";
 
 export type Item = {

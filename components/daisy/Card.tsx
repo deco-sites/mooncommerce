@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {

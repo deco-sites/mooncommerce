@@ -1496,6 +1496,22 @@
           }
         }
       }
+    },
+    {
+      "id": "/.deco/blocks/pages-Quem%2520somos-146228.json",
+      "name": "Quem somos",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Quem%2520somos-485552.json",
+      "name": "Quem somos",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
     }
   ]
 }
